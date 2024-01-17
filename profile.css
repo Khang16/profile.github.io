@@ -29,6 +29,7 @@ body{
     font-size: 2.5rem;
     color: white;
 }
+
 .navbar a{
     font-size: 1.7rem;
     color: white;
@@ -51,9 +52,6 @@ section{
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('./images/1.jpg');
-    background-size: cover;
-    background-position: center;
 }
  
 .home-content{
@@ -78,10 +76,12 @@ section{
 .btn-box .btn{
     position: relative;
     display: inline-flex;
+    
     justify-content: center;
     align-items: center;
     width: 15rem;
     height: 4rem;
+    color: gray;
     background-color: aqua;
     border: .2rem solid aqua;
     font-size: 1.8rem;
@@ -105,6 +105,9 @@ section{
 .btn-box .btn:hover:before{
     width: 100%;
     
+}
+.img-hidden img{
+    display: none;
 }
 .home-sci{
     position: absolute;
@@ -149,6 +152,9 @@ section{
 
 
 .home-imgHover{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
     position: absolute;
     margin-top: 50px;
     top: 0;
@@ -161,7 +167,7 @@ section{
 }
 .home-imgHover:hover{
     background-color: #282425;
-    opacity: 0.6;
+    opacity: 0.3;
 }
 .about{
     display: flex;
