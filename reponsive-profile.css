@@ -1,4 +1,4 @@
-@media  screen and (max-width: 890px){
+@media  screen and (max-width: 960px){
     .header{
         position: initial;
     }
@@ -23,7 +23,7 @@
         width: 30rem;
         height: 25rem;
         display: block;
-        
+        margin-bottom: 1.5rem;
     }
     .home-imgHover{
         width: 0;
@@ -35,5 +35,8 @@
         justify-content: center;
         width: 100%;
         gap: 5rem;
+    }
+    .btn-box .btn:first-child{
+        margin-bottom: 1rem;  
     }
 }
